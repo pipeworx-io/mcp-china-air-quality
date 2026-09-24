@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/china-air-quality",
   "title": "China Air Quality",
   "description": "China Air Quality MCP — nationwide hourly AQI from CNEMC (中国环境监测总站).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/china-air-quality",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-china-air-quality",

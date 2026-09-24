@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-china-air-quality",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "China Air Quality MCP — nationwide hourly AQI from CNEMC (中国环境监测总站).",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-b6e2044b1a53638e88b5dc1d757c94dc485061af4ae8f6df70ad6b01507496c2",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
