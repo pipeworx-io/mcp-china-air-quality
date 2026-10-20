@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-china-air-quality",
-  "version": "0.1.2",
-  "description": "China Air Quality MCP — nationwide hourly AQI from CNEMC (中国环境监测总站).",
+  "version": "0.1.3",
+  "description": "China Air Quality MCP — nationwide hourly AQI from CNEMC (中国环境监测总站). 中国空气质量实时数据 — AQI、PM2.5、PM10、O3、NO2、SO2、CO。",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-801e87869426a99707f80cc53e3c87547423aec3ae9a71953fa2a2f381e2a5b0",
-    "sourceCommit": "babdd280d475dceddecc9ebf8f2a661712781a81"
+    "sourceHash": "v1-06be471465f38c2bafb6b3ddca99043fe04f3896e38706bfec0242c9a3db0206",
+    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
   }
 }
