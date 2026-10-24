@@ -4,7 +4,7 @@ Real-time nationwide air quality (空气质量) for China — AQI, pollutant lev
 concentrations (PM2.5, PM10, O3, NO2, SO2, CO), quality rating and monitoring-station
 detail. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1854+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1875+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 Of the 20 China-government sources probed 2026-09-07 (`docs/china-vertical-plan.md`
 §2), this was the only one that answered clean JSON with no session cookie, Referer
@@ -122,7 +122,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1854+ data sources. The
+Both URLs reach the same gateway and the same 1875+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
