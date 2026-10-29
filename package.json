@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-china-air-quality",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "China Air Quality MCP — nationwide hourly AQI from CNEMC (中国环境监测总站). 中国空气质量实时数据 — AQI、PM2.5、PM10、O3、NO2、SO2、CO。",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-china-air-quality": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "china-air-quality"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-china-air-quality.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/china-air-quality",
   "pipeworx": {
-    "sourceHash": "v1-f2875d0948304dc2e0b9079f471e79bd526f2fb000b78ac4a3546b00722afeaa",
-    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
+    "mode": "gateway",
+    "slug": "china-air-quality",
+    "gatewaySlug": "china-air-quality",
+    "sourceHash": "v1-bb41730f69b6ca2b24e6ecb58b9bec7435d074519095aa1570f83293c27d0f26",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
